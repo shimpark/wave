@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" cnotent="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>wave</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+    <script type="module">
+        import {sayHi} from './say.js';
+        //document.body.innerText = sayHi('John');
+    </script>
+    
+    <script nomodule >
+        alert('fuck');
+    </script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
